@@ -39,9 +39,6 @@ rag-master-ai/
 ├── config.py              # Centralized configuration
 ├── organizar_docs.py      # Automatic file classification script
 ├── requirements.txt
-├── .env.example           # Environment variables template
-├── docs/                  # Directory for source documents
-│   └── LEEME.txt
 └── utils/
     ├── __init__.py
     └── loaders.py         # File type loaders
