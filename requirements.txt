@@ -1,0 +1,36 @@
+# ── Core ──────────────────────────────────
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+
+# ── Document loaders ─────────────────────
+pypdf>=4.0.0
+docx2txt>=0.8
+python-pptx>=0.6.23
+beautifulsoup4>=4.12.0
+unstructured>=0.15.0
+
+# ── Embeddings ───────────────────────────
+# (sentence-transformers ya incluido arriba)
+
+# ── LLM Providers (instalar según elección) ─
+# Ollama (local) — instalar siempre
+langchain-ollama>=0.2.0
+
+# Groq (API gratuita) — descomentar si se usa
+ langchain-groq>=0.2.0
+
+# Google Gemini (API gratuita) — descomentar si se usa
+# langchain-google-genai>=2.0.0
+
+# HuggingFace (API gratuita) — descomentar si se usa
+# langchain-huggingface>=0.1.0
+
+# ── Interface ────────────────────────────
+streamlit>=1.38.0
+
+# ── Utils ────────────────────────────────
+python-dotenv>=1.0.0
