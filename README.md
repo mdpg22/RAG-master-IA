@@ -2,7 +2,7 @@
 
 A Retrieval-Augmented Generation (RAG) system that turns the entire material from a master's degree into a searchable knowledge base using natural language queries.
 
-![RAG Pipeline](assets/rag_pipeline.png)
+![RAG Pipeline](rag_pipeline.png)
 
 ## The problem
 
